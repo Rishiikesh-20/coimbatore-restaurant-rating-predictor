@@ -63,12 +63,11 @@ data/
     raw_gmaps_scrape.csv      collected dataset (4,667 venues, 29 columns)
     restaurant_clean.csv      cleaned modelling dataset (3,412 venues, 38 columns)
     data_dictionary.md
-figures/                  charts saved by the notebook
 scraping/                 scripts and steps used for data collection
 requirements.txt
 ```
 
-To run the analysis, install `requirements.txt` and run `analysis.ipynb` from the repository root. It reads `data/raw_gmaps_scrape.csv` and rewrites `data/restaurant_clean.csv` and `figures/`. The raw scraper output is not included because it contains reviewer names.
+To run the analysis, install `requirements.txt` and run `analysis.ipynb` from the repository root. It reads `data/raw_gmaps_scrape.csv` and rewrites `data/restaurant_clean.csv`. The unprocessed scraper output (`scraping/out/`) is not included because it contains reviewer names; `data/raw_gmaps_scrape.csv` holds only venue-level fields.
 
 ## 7. References
 1. Zhang, M., & Luo, L. (2023). Can consumer-posted photos serve as a leading indicator of restaurant survival? Evidence from Yelp. *Management Science*, 69(1), 25–50. https://doi.org/10.1287/mnsc.2022.4359
