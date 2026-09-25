@@ -7,14 +7,8 @@ __pycache__/
 # ---- personal data: raw scraper output contains reviewer names - never commit
 scraping/out/
 
-# ---- local build tooling (the notebook and PDF are the deliverables)
-build_notebook.py
-notebook_text.py
-generate_report.py
 outputs/
 
-# ---- planning notes and superseded work
-ANALYSIS_PLAN.md
 archive/
 
 # ---- other documents (only the final report is committed)
