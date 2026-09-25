@@ -1,8 +1,7 @@
 # Premium Positioning Viability Predictor for Coimbatore Restaurants
 
-Business Analytics, individual case study
+23CSE452 Business Analytics, individual case study
 Rishiikesh S K | CB.SC.U4CSE23236 | CSE-C
-Domain: Food and Hospitality
 
 ## 1. Problem statement
 In Coimbatore's crowded restaurant market, the Google Maps rating is usually the first thing a customer looks at. A rating of 4.2 stars or more is treated as the entry ticket to premium positioning: below it, customers are less willing to pay more and delivery platforms show the listing less prominently.
@@ -39,7 +38,7 @@ More detail is in [scraping/README.md](scraping/README.md), and every column is 
 | Logistic Regression | 0.703 ± 0.025 | 0.745 ± 0.020 | 0.768 ± 0.030 |
 | Decision Tree | 0.664 ± 0.021 | 0.709 ± 0.021 | 0.718 ± 0.024 |
 | KNN | 0.715 ± 0.022 | 0.787 ± 0.017 | 0.760 ± 0.028 |
-| Random Forest (extra) | 0.716 ± 0.028 | 0.761 ± 0.024 | 0.783 ± 0.028 |
+| Random Forest | 0.716 ± 0.028 | 0.761 ± 0.024 | 0.783 ± 0.028 |
 | Majority-class baseline | 0.609 | - | 0.500 |
 
 Random Forest predicts best. Logistic Regression is the best of the three main models and is the one used to explain the factors. KNN's high F1 comes from predicting "4.2 or higher" for nearly every venue (recall 0.86).
